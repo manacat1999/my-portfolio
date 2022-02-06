@@ -1,0 +1,123 @@
+body {
+    font-family:fantasy;
+    letter-spacing: 5px;
+}
+a{
+    text-decoration:none;
+    color: #7172ac;
+    font-size: 20px;
+}
+
+h1:first-letter {
+    font-size: 2em;
+    color: #7172ac;
+    letter-spacing: 10px;
+  }
+
+h2 {
+    position: relative;
+    color: #7172ac;
+    font-size: 20px;
+    padding: 10px 0;
+    text-align: center;
+    margin: 1.5em 0;
+  }
+  h2:before {
+    content: "";
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    width: 150px;
+    height: 58px;
+    border-radius: 50%;
+    border: 5px solid #a1ceff;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+
+.ababa{
+    text-align: center;
+    font-size: 26px;
+}
+
+#quiz-image {
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+  }
+  
+  .hidden {
+    display: none;
+  }
+
+
+  .wrapper { 
+    height: 100%;
+    width: 100%;
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+  background: linear-gradient(124deg, #c97f74, #db9fc7, #ddc881, #e9eb8c, #94e6a2, #a3eef1, #827be4, #e7a7ec, #f47bff);
+  background-size: 1800% 1800%;
+  
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+    animation: rainbow 18s ease infinite;}
+  
+  @-webkit-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @-moz-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @-o-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @keyframes rainbow { 
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+
+  #choice-1{
+    width:100px;
+    font-size:15px;
+    color:#FFFFFF;
+    text-align:center;
+    padding:10px 0 10px;
+    background:#8a6aa8;
+    border-radius: 20px;
+  }
+  #choice-2{
+    width:100px;
+    font-size:15px;
+    color:#FFFFFF;
+    text-align:center;
+    padding:10px 0 10px;
+    background:#8a6aa8;
+    border-radius: 20px;
+  }
+  #choice-3{
+    width:100px;
+    font-size:15px;
+    color:#FFFFFF;
+    text-align:center;
+    padding:10px 0 10px;
+    background:#8a6aa8;
+    border-radius: 20px;
+  }
+
+  #feedback{
+    line-height: 100px;
+  }
